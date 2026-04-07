@@ -16,7 +16,6 @@
         </div>
     </header>
 
-
     <main class="grow container mx-auto">
         <div class="mt-8 mb-6 space-y-4">
             <div class="bg-white shadow rounded-lg p-4">
