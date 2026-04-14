@@ -16,7 +16,7 @@ class Database
         );
 
         // Untuk pengecekan, jika tidak terkoneksi database maka databasenya akan dinonaktifkan
-        if ($this->connection) {
+        if (!$this->connection) {
             die("Error to connect Database");
         }
     }
